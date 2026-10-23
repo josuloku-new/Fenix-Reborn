@@ -25,7 +25,7 @@ El asistente tiene cuatro pasos:
 1. Bienvenida.
 2. Herramientas: aceptas sus condiciones y descarga Clang/LLD, CMake/Ninja, ReXGlue, el extractor de ISO y las cabeceras y bibliotecas de Windows y C++. No instala Visual Studio ni MSBuild.
 3. Tu ISO: la seleccionas, se extrae y se verifica. La ISO original no se toca.
-4. Preparar juego: genera el C++ y lo compila en tu equipo. La primera vez tarda un buen rato.
+4. Preparar juego: genera el C++ y lo compila en tu equipo. La primera vez tarda varios minutos.
 
 En ese último paso viene marcada la casilla **Liberar espacio al terminar**. Si la dejas, al acabar borra las descargas, las herramientas y la compilación temporal, y conserva la ISO, el juego preparado, los ajustes, las cachés y tus partidas. Desmárcala si quieres poder reconstruir más adelante sin volver a descargar. Los registros quedan en `.local/logs`.
 
