@@ -1,0 +1,23 @@
+# The first ReXGlue pass leaves this PPC tail-branch target undiscovered.
+# XenonRecomp already contains it in its generated function map.
+[functions]
+"0x82D0C758" = {}
+"0x82B3EB88" = {}
+"0x82B64C9C" = {}
+"0x82B8D6BC" = {}
+"0x82362E98" = {}
+"0x82AC6FC0" = {}
+"0x8295A7C8" = {}
+"0x82255490" = {}
+"0x822EB780" = {}
+"0x82D3D5C8" = {}
+"0x82D9C4A0" = {}
+"0x82264DA0" = {}
+"0x8295F740" = {}
+"0x82D9B510" = {}
+"0x8274BFE8" = {}
+"0x82E9D808" = {}
+"0x8295C798" = {}
+"0x82BFA4C0" = {}
+"0x826D8960" = {}
+"0x824F36A0" = {}

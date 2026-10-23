@@ -1,0 +1,63 @@
+{
+  "extractor": {
+    "label": "extract-xiso",
+    "version": "build-202609111233",
+    "url": "https://github.com/XboxDev/extract-xiso/releases/download/build-202609111233/extract-xiso-Win64_Release.zip",
+    "sha256": "fc891dfa72f08e3838a2f8b7ec34a8e4d61678da1cc8fee879677f00bf114ce3"
+  },
+  "python": {
+    "url": "https://www.python.org/ftp/python/3.14.0/python-3.14.0-embed-amd64.zip",
+    "sha256": "8d4d3590c10449d78aa4375f534e6d5f3027d67fdc362dd1a882279db6f90fdf",
+    "label": "Python portable para herramientas"
+  },
+  "sdk": {
+    "label": "ReXGlue 0.10.0",
+    "url": "https://github.com/rexglue/rexglue-sdk/releases/download/v0.10.0/rexglue-sdk-0.10.0-win-amd64.zip",
+    "sha256": "ad4485da853fbe932e9f5dbb643f9b5fe85dc73775ebbad4df6879fe6df0c11b"
+  },
+  "cmake": {
+    "label": "CMake portable",
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8-windows-x86_64.zip",
+    "sha256": "81aa9964dbabd71fe02e7ec50472fd3ad56138c49944515ece9001efbff8d719"
+  },
+  "ninja": {
+    "label": "Ninja",
+    "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-win.zip",
+    "sha256": "26a40fa8595694dec2fad4911e62d29e10525d2133c9a4230b66397774ae25bf"
+  },
+  "llvm": {
+    "label": "Clang / LLVM 21.1.8",
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-win64.exe",
+    "sha256": "7a5386c26497db1691f320121e5b113364dd0274b98e55f15f4dbc00c0450113"
+  },
+  "sevenzip": {
+    "label": "7-Zip portable",
+    "url": "https://www.7-zip.org/a/7z2501-x64.exe",
+    "sha256": "78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f"
+  },
+  "texture_sdk_source": {
+    "label": "Código del cargador de texturas",
+    "url": "https://codeload.github.com/rexglue/rexglue-sdk/zip/c94f5ebdcb3c9d1a460ca48e04f9758448f8d518",
+    "sha256": "9ce108d2fc111eed58ad90530af034c9547367efa1fd2165617a3eaa2ce06371"
+  },
+  "texture_umodel": {
+    "label": "UE Viewer de Gildor",
+    "url": "https://raw.githubusercontent.com/gildor2/UEViewer/a0bfb468d42be831b126632fd8a0ae6b3614f981/umodel.exe",
+    "sha256": "13502e5a4d8f6b5f32252afebd6360f7302ccfaccf6b8dda65beff0be2d364a0"
+  },
+  "texture_texconv": {
+    "label": "DirectXTex de Microsoft",
+    "url": "https://github.com/microsoft/DirectXTex/releases/download/may2026/texconv.exe",
+    "sha256": "dcfdec10244e02cf5037fba089c55fb7e1326b1c8181742d77d15fa5cb5eef06"
+  },
+  "texture_upscaler": {
+    "label": "SRMD de nihui / Kai Zhang",
+    "url": "https://github.com/nihui/srmd-ncnn-vulkan/releases/download/20220728/srmd-ncnn-vulkan-20220728-windows.zip",
+    "sha256": "df491c0c85d347b1e85f20d959d92db6531ae603ce8c7e8d4cd02c643cb5116f"
+  },
+  "sevenzip_bootstrap": {
+    "label": "Extractor 7zr",
+    "url": "https://www.7-zip.org/a/7zr.exe",
+    "sha256": "256feca8e274e5da655e2a284fabafd9f554365eb164862089dacd4e8276d282"
+  }
+}
