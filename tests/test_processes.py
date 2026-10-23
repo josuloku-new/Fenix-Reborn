@@ -19,7 +19,9 @@ class ProcessTests(unittest.TestCase):
             process=spawn_external([sys.executable,'-c',code],local=local,stdout=subprocess.PIPE,text=True)
             output,_=process.communicate(timeout=10)
             self.assertEqual(process.returncode,0)
-            self.assertEqual(Path(json.loads(output)).parent,local/'temp/work')
+            # Resolve both sides: Windows may report the same folder with a short
+            # (8.3) name such as RUNNER~1 or with its long name.
+            self.assertEqual(Path(json.loads(output)).resolve().parent,(local/'temp/work').resolve())
     def test_relaunch_resets_bootloader_without_mutating_parent_environment(self):
         with tempfile.TemporaryDirectory() as directory:
             original={'TEMP':'outside','_PYI_APPLICATION_HOME_DIR':'parent-bundle','PATH':'custom-path'}
